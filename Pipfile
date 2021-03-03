@@ -19,3 +19,4 @@ allow_prereleases = true
 
 [scripts]
 test = "pytest ./pythonchanges"
+safeblack = "black --exclude test_pep614.py"
