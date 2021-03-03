@@ -30,7 +30,7 @@ def add_then_times_2(a, b):
 
 @multiplier_map[10]
 def add_then_times_10(a, b):
-    return a+b
+    return a + b
 
 
 def test_list_subscripting():
